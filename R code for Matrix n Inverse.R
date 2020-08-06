@@ -38,6 +38,6 @@
      ##
        ## test the above function
        ##
-       my_t <- matrix(rnorm(9), 3, 3)
+       my_t <- matrix(rnorm(25), 5, 5)
        my_t1 <- makeCacheMatrix(my_t)
        cacheSolve(my_t1)
